@@ -1,3 +1,5 @@
+package Test4_2;
+
 /**
  * Created by Emil Käck on 2017-11-15.
  */
@@ -40,8 +42,8 @@ public class Student extends Person {
 
     @Override
     public String toString() {
-        return "Student{" +
-                "Person{" +
+        return "Test4_2.Student{" +
+                "Test4_2.Person{" +
                 "name='" + super.getName() + '\'' +
                 ", address='" + super.getAddress() + '\'' +
                 "} program='" + program + '\'' +

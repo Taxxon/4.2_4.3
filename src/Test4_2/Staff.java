@@ -1,3 +1,5 @@
+package Test4_2;
+
 /**
  * Created by Emil Käck on 2017-11-15.
  */
@@ -31,8 +33,8 @@ public class Staff extends Person {
 
     @Override
     public String toString() {
-        return "Staff{" +
-                "Person{" +
+        return "Test4_2.Staff{" +
+                "Test4_2.Person{" +
                 "name='" + super.getName() + '\'' +
                 ", address='" + super.getAddress() + '\'' +
                 "} school='" + school + '\'' +
